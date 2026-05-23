@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Quartus Prime Build Outputs
+output_files/
+*.sof
+*.pof
+*.done
+*.pin
+*.rpt
+*.summary
+*.smsg
+*.html
+*.jdi
+*.cdf
+
+# Quartus Database / Cache
+db/
+incremental_db/
+greybox_tmp/
+
+# ModelSim / Qsim Simulation
+simulation/
+*.wlf
+vsim.wlf
+transcript
+msim_transcript
+work/
+rtl_work/
+*_work/
+_vmake
+_info
+
+# Timing / Debug Databases
+*.tdb
+*.ddb
+*.hsd
+
+# Backup Files
+*.bak
+*.bak[0-9]*
